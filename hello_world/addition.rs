@@ -3,5 +3,5 @@ fn foo(a: i32, b:i32) -> i32 {
 }
 
 fn main() {
-    foo(42, 12);
+    println!("{}", foo(42, 12));
 }
